@@ -1,0 +1,6 @@
+usr/local/bin/cats-qt usr/bin
+share/pixmaps/cats32.xpm usr/share/pixmaps
+share/pixmaps/cats16.xpm usr/share/pixmaps
+share/pixmaps/cats128.png usr/share/pixmaps
+debian/cats-qt.desktop usr/share/applications
+debian/cats-qt.protocol usr/share/kde4/services/

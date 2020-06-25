@@ -1,0 +1,8 @@
+/usr/bin/cats-cli		--	gen_context(system_u:object_r:cats_exec_t,s0)
+/usr/sbin/catsd		--	gen_context(system_u:object_r:cats_exec_t,s0)
+/usr/lib(64)?/cats/catsd		--	gen_context(system_u:object_r:cats_exec_t,s0)
+
+/etc/cats(/.*)?		gen_context(system_u:object_r:cats_conf_t,s0)
+/var/lib/cats(/.*)?		gen_context(system_u:object_r:cats_var_lib_t,s0)
+
+(/var)?/run/catsd(/.*)?   gen_context(system_u:object_r:cats_var_run_t,s0)

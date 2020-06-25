@@ -1,0 +1,3 @@
+usr/local/bin/catsd usr/bin
+usr/local/bin/cats-cli usr/bin
+debian/examples/cats.conf etc/cats

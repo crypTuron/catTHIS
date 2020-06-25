@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=CATS Core
+Comment=CATS P2P Cryptocurrency
+Comment[fr]=CATS, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CATS, eşten eşe kriptografik sanal para birimi
+Exec=cats-qt %u
+Terminal=false
+Type=Application
+Icon=cats128
+MimeType=x-scheme-handler/cats;
+Categories=Office;Finance;
+StartupWMClass=Cats-qt
